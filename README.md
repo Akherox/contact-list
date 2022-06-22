@@ -38,8 +38,6 @@ Aplicativo de agenda de contatos, feito com React pondo na pratica a instrução
 ### O que eu aprendi (até agora)
 
 Trabalhar com "react-router-dom" as rotas e o comportamento delas.
-Ocultar e mostrar conteudo na tela com os states.
-Tirar a decoração dos links do CSS.
 
 ```jsx
 <Routes>
@@ -47,6 +45,7 @@ Tirar a decoração dos links do CSS.
     <Route exact path='/add' element={<AddContact/>}/>
 </Routes>
 ```
+Ocultar e mostrar conteudo na tela com os states.
 ```jsx
 <div className="media-content" style={{ overflow: "hidden" }}>
     <p className="title is-4 is-capitalized">
@@ -59,6 +58,7 @@ Tirar a decoração dos links do CSS.
     </p>
 </div>
 ```
+Tirar a decoração dos links do CSS.
 ```css
 .link {
     text-decoration: none !important;
